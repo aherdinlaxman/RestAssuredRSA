@@ -11,7 +11,7 @@ Feature: adding new place feature
      |name             |language |address                          |
      |Dinesh house     |Marathi  | Grant road, ville parole, Mumbai|
      |Saurabh house    |Hindi    | Chan road, Pune, Maharashtra    |
-     |deepali house        |English  | Oregon road, Navi Mumbai        |
+     |deepali house    |English  | Oregon road, Navi Mumbai        |
 
 @DeletePlace
   Scenario: validate delete place is working with api call

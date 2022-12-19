@@ -10,12 +10,12 @@ import java.util.List;
 
 public class TestDataBuild {
     Faker faker = new Faker();
-    public String deletePlacePayload(String id) {
+        public String deletePlacePayload(String id) {
         DeletePlace dp = new DeletePlace();
         dp.setPlace_id(id);
 
         return "{\r\n    \"place_id\":\""+id+"\"\r\n}";
-    }
+         }
 
 
         public AddPlace addPlacePayload() {
